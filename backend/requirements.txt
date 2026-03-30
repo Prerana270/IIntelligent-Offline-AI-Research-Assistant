@@ -1,0 +1,21 @@
+# Core FastAPI + Uvicorn
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# LangChain
+langchain==0.2.1
+langchain-community==0.2.1
+
+# Embeddings + Vector DB
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1
+
+# LLM (Ollama)
+ollama==0.2.1
+
+# Document loaders
+pypdf==4.2.0
+
+# Optional: Streamlit UI
+streamlit==1.32.0
